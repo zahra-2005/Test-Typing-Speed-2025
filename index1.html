@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Speed Type</title>
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="masthead">
+        <h1>Typing speed test</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p dir="rtl">
+                The process of measuring typing speed is such that when the user starts typing,the timer starts counting time.
+                And as the user types each letter, the user's text is checked to match the displayed text
+            </p>
+        </article><!--.intro-->
+        <section class="test-area">
+            <div class="pattern">
+                Template text:
+            </div>
+            <div id="origin-text">
+                <p>Typing is one of the most important skills in today's world,
+                    With the advancement of technology and the increase in the use of computers,
+                    the ability to type quickly and accurately has become an essential requirement,
+                    Constant practice can help you increase your typing speed and accuracy,
+                    You can use educational software and websites to improve your typing skills.
+                </p>
+            </div><!--#origin-text-->
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6" placeholder="Start."></textarea>
+            </div><!--.test-wrapper-->
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+                <button id="reset">Again</button>
+            </div><!--.meta-->
+        </section><!--.test-area-->
+    </main>
+</body>
+</html>
